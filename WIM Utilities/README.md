@@ -7,7 +7,7 @@ img.ini, which is created the first time you run img.ps1, contains the paths and
 
 If you just run img.ps1 you will get a help screen which shows all of the commands.
 
-Some of the most helpful are combine, which takes all of the .SWM files (i.e. install.swm and install2.swm) and combines them into a singel install.wim which you can then mount as an offline image to perform modifications on.  When you are down, you can then split the single image back up to recopy back to the bootable USB drive to install.
+Some of the most helpful are combine, which takes all of the .SWM files (i.e. install.swm and install2.swm) and combines them into a singel install.wim which you can then mount as an offline image to perform modifications on.  When you are done, you can then split the single image back up to recopy back to the bootable USB drive to install.
 
 appx-util.ps1 is a helpful utility which allows you to remove pre-provisioned .appx files such as cortana, all the xbox utils, etc.  appx-util.ini, which is created the first time you run appx-util.ps1, contains the paths and file names as well as offline registry paths.
 
