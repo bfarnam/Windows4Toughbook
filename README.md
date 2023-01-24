@@ -5,7 +5,7 @@ Toughbook is a registered trademark of Panasonic.  All code provided may have co
 
 YMMV
 
-All Panasonic Toughbooks are preloaded with a recovery partition which allows the end user to restore the computer back to the factory state.  Unfortunately, this often includes bloatware from MS.  Stripping this out the image usually wasn't an option until recently.
+All Panasonic Toughbooks are preloaded with a recovery partition which allows the end user to restore the computer back to the factory state.  Unfortunately, this often includes bloatware from M$.  Stripping this out the image usually wasn't an option until recently.
 
 Using the official Windows 10 download utility, I was able to extract the ISO files which make up the recovery partition.  Inside these ISO files are the WIM files which install the operating system, held in check by a MD5 check utility to ensure that tampering does not occur.
 
