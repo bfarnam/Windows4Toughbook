@@ -8,7 +8,7 @@ During this process the contents of the \source directory is copied to the Recov
 
 The BOOT.WIM file has code that checks to ensure that the image is being installed on the target model, that it is plugged in, and that the contents of INSTALL.SWM and INSTALL2.SWM have not been altered.
 
-The main checks are done through a java file: \sources\recovery\oem\script\common.js
+The main checks are done through a java file: BOOT.WIM:\sources\recovery\oem\script\common.js
 
 The functions cmnCHK_MD5, cmnCHK_isAC, and cmnCHK_isTargetMODEL perform these checks.
 
